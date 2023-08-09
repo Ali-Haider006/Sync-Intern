@@ -15,13 +15,15 @@ const questions = [
 
 let currentQuestionIndex = 0;
 let score = 0;
-
+let n = 1;
 const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
+const questionNumber = document.getElementById("Q_no")
 const nextButton = document.getElementById("next-btn");
 const resultElement = document.getElementById("result");
 
 function showQuestion(question) {
+    questionNumber.innerHTML = n++;
     questionElement.textContent = question.question;
     optionsElement.innerHTML = "";
     question.options.forEach((option, index) => {
@@ -47,6 +49,7 @@ function checkAnswer(selectedIndex) {
 }
 
 function showResult() {
+    questionNumber.style.display = "none";
     questionElement.style.display = "none";
     optionsElement.style.display = "none";
     nextButton.style.display = "none";
