@@ -10,6 +10,16 @@ const questions = [
         options: ["Indus River", "Jhelum River", "Chenab River", "Ravi River"],
         correct: 0
     },
+    {
+        question: "Which dam is biggest in Pakistan?",
+        options: ["Tarbela Dam", "Mangala Dam", "Karachi Dam", "Rawalpindi Dam"],
+        correct: 0
+    },
+    {
+        question: "Which dam is biggest in Pakistan?",
+        options: ["Tarbela Dam", "Mangala Dam", "Karachi Dam", "Rawalpindi Dam"],
+        correct: 0
+    },
     // Add more questions...
 ];
 
