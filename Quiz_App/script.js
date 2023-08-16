@@ -1,27 +1,107 @@
 // script.js
 const questions = [
     {
-        question: "What is the capital of Pakistan?",
-        options: ["Islamabad", "Karachi", "Lahore", "Rawalpindi"],
-        correct: 0
+      question: "What is the national flower of Pakistan?",
+      options: [
+        "Rose",
+        "Lily",
+        "Jasmine",
+        "Tulip"
+      ],
+      correct: 2
     },
     {
-        question: "Which river is known as the 'Sindhur'?",
-        options: ["Indus River", "Jhelum River", "Chenab River", "Ravi River"],
-        correct: 0
+      question: "Which mountain range is located in northern Pakistan and includes K2, the second-highest peak in the world?",
+      options: [
+        "Himalayas",
+        "Andes",
+        "Rocky Mountains",
+        "Karakoram Range"
+      ],
+      correct: 3
     },
     {
-        question: "Which dam is biggest in Pakistan?",
-        options: ["Tarbela Dam", "Mangala Dam", "Karachi Dam", "Rawalpindi Dam"],
-        correct: 0
+      question: "Which river is the longest in Pakistan?",
+      options: [
+        "Indus River",
+        "Jhelum River",
+        "Chenab River",
+        "Ravi River"
+      ],
+      correct: 0
     },
     {
-        question: "Which dam is biggest in Pakistan?",
-        options: ["Tarbela Dam", "Mangala Dam", "Karachi Dam", "Rawalpindi Dam"],
-        correct: 0
+      question: "Which city is known as the 'City of Gardens' in Pakistan?",
+      options: [
+        "Karachi",
+        "Lahore",
+        "Islamabad",
+        "Rawalpindi"
+      ],
+      correct: 1
     },
-    // Add more questions...
-];
+    {
+      question: "Which Pakistani scientist is known as the 'Father of the Atomic Bomb'?",
+      options: [
+        "Dr. Abdul Qadeer Khan",
+        "Dr. Atta-ur-Rahman",
+        "Dr. Pervez Hoodbhoy",
+        "Dr. Samar Mubarakmand"
+      ],
+      correct: 0
+    },
+    {
+      question: "Which historic site in Pakistan is often referred to as the 'Roof of the World'?",
+      options: [
+        "Badshahi Mosque",
+        "Shalimar Gardens",
+        "Mohenjo-daro",
+        "Skardu"
+      ],
+      correct: 3
+    },
+    {
+      question: "What is the national language of Pakistan?",
+      options: [
+        "Urdu",
+        "English",
+        "Punjabi",
+        "Sindhi"
+      ],
+      correct: 0
+    },
+    {
+      question: "Which Pakistani woman was the youngest-ever recipient of the Nobel Prize?",
+      options: [
+        "Malala Yousafzai",
+        "Benazir Bhutto",
+        "Asma Jahangir",
+        "Hina Rabbani Khar"
+      ],
+      correct: 0
+    },
+    {
+      question: "In which year did Pakistan gain independence from British rule?",
+      options: [
+        "1942",
+        "1947",
+        "1955",
+        "1960"
+      ],
+      correct: 1
+    },
+    {
+      question: "Which traditional Pakistani musical instrument is often associated with the Sufi culture of Sindh?",
+      options: [
+        "Tabla",
+        "Sitar",
+        "Rabab",
+        "Sarangi"
+      ],
+      correct: 2
+    }
+  ]
+  
 
 let currentQuestionIndex = 0;
 let score = 0;
